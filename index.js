@@ -11,8 +11,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
         <img src="${libro.img}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${libro.title}</h5>
-          <p class="card-text">${libro.price}</p>
-          <button class="scarta" >SCARTA</button>
+          <p class="card-text">${libro.price}€</p>
+          <button class="scarta bg-ligth" >SCARTA</button>
         </div>
       </div>`;
       grid.appendChild(col);

@@ -1,0 +1,13 @@
+.card-img-top {
+  object-fit: cover;
+  object-position: top;
+  height: 420px;
+}
+
+#libreriaContainer {
+  margin-inline: -1;
+}
+
+.card {
+  height: 100%;
+}
